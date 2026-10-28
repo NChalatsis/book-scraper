@@ -71,6 +71,12 @@ python src/analyze.py
 | `in_stock` | Availability (bool) |
 | `url` | Product page URL |
 
+## Results
+
+Scraped **1,000 books** across 50 pages. Average price is roughly the same for every star rating (about £35), so price is not a good predictor of rating in this dataset.
+
+![Average price by rating](images/price_by_rating.png)
+
 ## How it works
 
 1. **`allowed_by_robots()`** verifies the start URL is permitted by robots.txt.
