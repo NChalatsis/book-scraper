@@ -2,7 +2,6 @@
 
 A small, polite web scraper built with Python that collects the full book catalog from [books.toscrape.com](https://books.toscrape.com) (a sandbox site created for scraping practice), cleans the data, and runs a quick analysis.
 
-I built this to learn web scraping fundamentals and to complement my API-based data work in [aris-basketball-analytics](https://github.com/NChalatsis/aris-basketball-analytics), where data is collected through a REST API rather than HTML.
 
 ## What it does
 
